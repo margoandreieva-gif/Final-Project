@@ -12,8 +12,24 @@
 
     <div id="fcf-form">
     <h3 class="fcf-h3">Contact us</h3>
+        
+    <form action="https://formsubmit.co/andreyevamargo2812@gmail.com" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="New contact form message">
+    <input type="hidden" name="_next" value="https://YOURUSERNAME.github.io/thankyou.html">
 
-    <form id="fcf-form-id" class="fcf-form-class" method="POST" action="https://formsubmit.co/andreyevamargo2812@gmail.com">
+    <label>Your name</label>
+    <input type="text" name="Name" required>
+
+    <label>Your email</label>
+    <input type="email" name="Email" required>
+
+    <label>Your message</label>
+    <textarea name="Message" required></textarea>
+
+    <button type="submit">Send Message</button>
+</form>
+
         
         <div class="fcf-form-group">
             <label for="Name" class="fcf-label">Your name</label>
