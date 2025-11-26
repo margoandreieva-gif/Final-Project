@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+<html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>contact form</title>
+    <title>Contact Form</title>
     <link href="css/contact-form.css" rel="stylesheet">
 </head>
 
@@ -11,59 +12,54 @@
 <div class="fcf-body">
 
     <div id="fcf-form">
-    <h3 class="fcf-h3">Contact us</h3>
-        
-    <form action="https://formsubmit.co/andreyevamargo2812@gmail.com" method="POST">
-    <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_subject" value="New contact form message">
-    <input type="hidden" name="_next" value="https://YOURUSERNAME.github.io/thankyou.html">
+        <h3 class="fcf-h3">Contact us</h3>
 
-    <label>Your name</label>
-    <input type="text" name="Name" required>
 
-    <label>Your email</label>
-    <input type="email" name="Email" required>
+        <form action="https://formsubmit.co/andreyevamargo2812@gmail.com" method="POST">
 
-    <label>Your message</label>
-    <textarea name="Message" required></textarea>
+   
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="New contact form message">
+            <input type="hidden" name="_next" value="https://margoandreieva-gif.github.io/thankyou.html">
 
-    <button type="submit">Send Message</button>
-</form>
-
-        
-        <div class="fcf-form-group">
-            <label for="Name" class="fcf-label">Your name</label>
-            <div class="fcf-input-group">
-                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            <!-- Name field -->
+            <div class="fcf-form-group">
+                <label for="Name" class="fcf-label">Your name</label>
+                <div class="fcf-input-group">
+                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                </div>
             </div>
-        </div>
 
-        <div class="fcf-form-group">
-            <label for="Email" class="fcf-label">Your email address</label>
-            <div class="fcf-input-group">
-                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            <!-- Email field -->
+            <div class="fcf-form-group">
+                <label for="Email" class="fcf-label">Your email address</label>
+                <div class="fcf-input-group">
+                    <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                </div>
             </div>
-        </div>
 
-        <div class="fcf-form-group">
-            <label for="Message" class="fcf-label">Your message</label>
-            <div class="fcf-input-group">
-                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            <!-- Message field -->
+            <div class="fcf-form-group">
+                <label for="Message" class="fcf-label">Your message</label>
+                <div class="fcf-input-group">
+                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                </div>
             </div>
-        </div>
 
-        <div class="fcf-form-group">
-            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
-        </div>
+            <!-- Submit button -->
+            <div class="fcf-form-group">
+                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+            </div>
 
-        <div class="fcf-credit" id="fcf-credit">
-        Simple HTML email form provided by <a href="https://www.majesticform.com" target="_blank">MajesticForm</a>
-        </div>
+            <div class="fcf-credit" id="fcf-credit">
+                Simple HTML email form provided by <a href="https://www.majesticform.com" target="_blank">MajesticForm</a>
+            </div>
 
-    </form>
+        </form>
     </div>
 
 </div>
 
 </body>
 </html>
+
