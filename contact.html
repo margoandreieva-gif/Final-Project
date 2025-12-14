@@ -3,20 +3,19 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Contact</title>
 
-    <!-- Contact Form Styles -->
+    <!-- CONTACT FORM STYLES -->
     <link rel="stylesheet" href="css/contact-form.css">
 </head>
 
 <body>
-
 <div class="fcf-body">
     <div id="fcf-form">
         <h3 class="fcf-h3">Contact Me</h3>
 
-        <!-- IMPORTANT: replace TOKEN_STRING with real one -->
-        <form action="https://formsubmit.co/TOKEN_STRING" method="POST">
+        <form action="https://formsubmit.co/andreyevamargo2812@gmail.com/YOUR_TOKEN_HERE" method="POST">
 
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_subject" value="New contact form message">
@@ -42,6 +41,7 @@
                     <textarea id="Message" name="Message"
                         class="fcf-form-control"
                         rows="6"
+                        maxlength="3000"
                         required></textarea>
                 </div>
             </div>
@@ -57,7 +57,6 @@
         </form>
     </div>
 </div>
-
 </body>
 </html>
 
