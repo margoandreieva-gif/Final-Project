@@ -1,32 +1,43 @@
 <form action="https://formsubmit.co/YOUR_RANDOM_STRING_HERE" method="POST">
 
-    <!-- Security & settings -->
+    <!-- Hidden fields -->
     <input type="hidden" name="_captcha" value="false">
     <input type="hidden" name="_subject" value="New contact form message">
-    <input type="hidden" name="_template" value="table">
     <input type="hidden" name="_next" value="thankyou.html">
 
-    <!-- Name -->
+    <!-- Name field -->
     <div class="fcf-form-group">
-        <label for="Name" class="fcf-label">Your Name</label>
-        <input type="text" id="Name" name="name" class="fcf-form-control" required>
+        <label for="Name" class="fcf-label">Your name</label>
+        <div class="fcf-input-group">
+            <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+        </div>
     </div>
 
-    <!-- Email -->
+    <!-- Email field -->
     <div class="fcf-form-group">
-        <label for="Email" class="fcf-label">Your Email</label>
-        <input type="email" id="Email" name="email" class="fcf-form-control" required>
+        <label for="Email" class="fcf-label">Your email address</label>
+        <div class="fcf-input-group">
+            <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+        </div>
     </div>
 
-    <!-- Message -->
+    <!-- Message field -->
     <div class="fcf-form-group">
-        <label for="Message" class="fcf-label">Your Message</label>
-        <textarea id="Message" name="message" class="fcf-form-control" rows="6" required></textarea>
+        <label for="Message" class="fcf-label">Your message</label>
+        <div class="fcf-input-group">
+            <textarea id="Message" name="Message"
+                class="fcf-form-control"
+                rows="6"
+                maxlength="3000"
+                required></textarea>
+        </div>
     </div>
 
-    <!-- Submit -->
+    <!-- Submit button -->
     <div class="fcf-form-group">
-        <button type="submit" class="fcf-btn fcf-btn-primary">
+        <button type="submit"
+            id="fcf-button"
+            class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">
             Send Message
         </button>
     </div>
